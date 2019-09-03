@@ -1,0 +1,275 @@
+.loginFlds
+{
+    background:white;
+    font-size:18px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 270px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 2px 3px rgba( 0, 0, 0, 0.1 );
+    clear: both;
+    background-color:gray;
+	
+}
+.btns
+{
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:gray;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.btns:hover
+ {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.btns:active {
+	position:relative;
+	top:1px;
+}
+
+
+#SigninDiv
+{
+    margin-top:100px;
+}
+#logo
+{
+    width:50px;
+    height:50px;
+    margin-top:33px;
+    opacity:1.0;
+    margin-left:15px;
+
+}
+
+#slang
+ {
+    text-align: center;
+font-family: "Open Sans",arial;
+color: #555;
+font-size: 38px;
+font-weight: 300;
+}
+
+
+#header 
+{
+    	color:white;
+	height:85px;
+   margin-left:-7px;
+	margin-top: -3%;
+	font-size:x-large;
+	width:1366px;
+	position:fixed;
+    opacity:0.6;
+    background-color:white;
+    z-index:2;
+-webkit-box-shadow: 7px -1px 66px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px -1px 66px -13px rgba(0,0,0,0.75);
+box-shadow: 7px -1px 66px -13px rgba(0,0,0,0.75);
+}
+#about, #travels,#airlines,#countries,#signIn,#signUp{
+      font-family: "Open Sans",arial;
+   text-align: right;
+	text-decoration: none;
+	color:black;
+     margin-left:100px;
+}
+.link {
+    font-family: "Open Sans",arial;
+   text-align: right;
+	text-decoration: none;
+    color:black;
+}
+
+.link:hover {
+    background-color:gray;
+}
+
+#signUp
+{
+   margin-left:200px;  
+}
+#name {
+    margin-left:50px;
+}
+#signUp:hover
+{
+   background-color:#00BC12; 
+}
+#signIn
+{
+ margin-left:10px;
+}
+#options {
+   margin-top:-50px;
+}
+
+#pharse {
+    margin-top:100px;
+    margin-left:300px;
+    position:absolute;
+    opacity:0.8;
+    background-color:white;
+    width:800px;
+    height:400px;
+    font-family:"Open Sans",arial;
+    font-size:20px;
+}
+#slang 
+{
+     font-family: "Open Sans",arial;
+     font-size:35px;
+     color:#565656;
+     position:absolute;
+     margin-top:100px;
+     margin-left:500px;
+}
+
+.divClass {
+    width:800px;
+    height:800px;
+     position:fixed;
+    opacity:0.85;
+    background-color:white;
+    -webkit-box-shadow: 7px -1px 66px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px -1px 66px -13px rgba(0,0,0,0.75);
+box-shadow: 7px -1px 66px -13px rgba(0,0,0,0.75);
+margin-top:70px;
+margin-left:280px;
+font-family: "Open Sans",arial;
+text-align:left;
+}
+#title {
+    font-size:20px;
+    color:#007A24;
+    font-family: "Open Sans",arial;
+    text-align:center;
+}
+#content {
+    font-size:25px;
+    font-family: "Open Sans",arial;
+}
+
+.inputFld {
+    background:gray;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 270px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 2px 3px rgba( 0, 0, 0, 0.1 );
+    clear: both;
+    border-width:2px;
+    border-color:black;
+}
+#signUpbtn {
+    margin-left:20px;
+}
+#airlineImg {
+    height:300px;
+    width:300px;
+}
+#countryImg {
+     height:300px;
+    width:300px;
+}
+.DelBtns {
+  background: #f53d3d;
+  background-image: -webkit-linear-gradient(top, #f53d3d, #fa8e8e);
+  background-image: -moz-linear-gradient(top, #f53d3d, #fa8e8e);
+  background-image: -ms-linear-gradient(top, #f53d3d, #fa8e8e);
+  background-image: -o-linear-gradient(top, #f53d3d, #fa8e8e);
+  background-image: linear-gradient(to bottom, #f53d3d, #fa8e8e);
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #5c5a5c;
+  font-size: 18px;
+  padding: 9px 14px 7px 17px;
+  text-decoration: none;
+}
+
+.DelBtns:hover {
+  background: #f5a4a4;
+  background-image: -webkit-linear-gradient(top, #f5a4a4, #f53939);
+  background-image: -moz-linear-gradient(top, #f5a4a4, #f53939);
+  background-image: -ms-linear-gradient(top, #f5a4a4, #f53939);
+  background-image: -o-linear-gradient(top, #f5a4a4, #f53939);
+  background-image: linear-gradient(to bottom, #f5a4a4, #f53939);
+  text-decoration: none;
+}
+
+.UpdBtns {
+  background: #007A24;
+  background-image: -webkit-linear-gradient(top, #007A24, #bcf5b3);
+  background-image: -moz-linear-gradient(top, #007A24, #bcf5b3);
+  background-image: -ms-linear-gradient(top, #007A24, #bcf5b3);
+  background-image: -o-linear-gradient(top, #007A24, #bcf5b3);
+  background-image: linear-gradient(to bottom, #007A24, #bcf5b3);
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #5c5a5c;
+  font-size: 18px;
+  padding: 9px 14px 7px 17px;
+  text-decoration: none;
+}
+
+.UpdBtns:hover {
+  background: #bcf5b3;
+  background-image: -webkit-linear-gradient(top, #bcf5b3, #007A24);
+  background-image: -moz-linear-gradient(top, #bcf5b3, #007A24);
+  background-image: -ms-linear-gradient(top, #bcf5b3, #007A24);
+  background-image: -o-linear-gradient(top, #bcf5b3, #007A24);
+  background-image: linear-gradient(to bottom, #bcf5b3, #007A24);
+  text-decoration: none;
+}
+
+#countryDescUpd {
+    width:300px;
+    height:300px;
+}
+
+#traImg {
+    width:300px;
+    height:300px;
+}
+#errorLab {
+    color:red;
+}
